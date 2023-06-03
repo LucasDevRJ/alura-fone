@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+.corpo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
 }
 
-input {
+.principal__teclado__botao {
   border: none;
   color: inherit;
   font-size: inherit;
@@ -19,22 +19,23 @@ input {
   font-family: inherit;
 }
 
-h1 {
+.principal__titulo {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   color: #fff;
+  text-align: center;
 }
 
-.teclado {
+.principal__teclado {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px; 
   background-color: #cccccc;
   border-radius: 30px;
-  padding: 10px;
+  padding: 30px;
 }
 
-input[type=button] {
+.principal__teclado__botao {
   border-radius: 20px;
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
@@ -42,7 +43,7 @@ input[type=button] {
   width: 80px;
 }
 
-input[type=tel] {
+.principal__entrada {
   background-color: #cccccc;
   border-radius: 10px;
   font-family: monospace;
