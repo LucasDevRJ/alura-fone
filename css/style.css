@@ -11,6 +11,13 @@
   min-height: 100vh;
 }
 
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .principal__teclado__botao {
   border: none;
   color: inherit;
@@ -23,7 +30,6 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   color: #fff;
-  text-align: center;
 }
 
 .principal__teclado {
