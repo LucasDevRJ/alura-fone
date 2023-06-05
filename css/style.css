@@ -49,6 +49,12 @@
   width: 80px;
 }
 
+.principal__teclado__botao:active {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FFFF00;
+}
+
 .principal__entrada {
   background-color: #cccccc;
   border-radius: 10px;
