@@ -8,6 +8,11 @@ function imprimiValorNoCampoTelefone(idTeclado) {
 for (let i = 0; i < listaDeBotoes.length; i++) {
 	let botao = listaDeBotoes[i];
 	let botaoValor = botao.value;
+
+	if (botao.key === "Backspace" || botao.key === "Enter") {
+		botao.classList.add("ativa");
+    } 
+
 	botao.onclick = function() {
 		imprimiValorNoCampoTelefone(botaoValor);
 	}
